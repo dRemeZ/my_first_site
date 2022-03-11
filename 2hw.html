@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .with-padding{
+        
+        color: darkslategray;
+    }
+    .no-padding{
+        padding: 5px;
+    }
+    .block{
+
+        width: 800px;
+        margin: 10px 10px 10px 10px;
+    }
+    .main{
+        color: crimson;
+    }
+    .button{
+        width: 20%;
+        background: #025167;
+        padding: 10px;
+        border-radius: 5px;
+        color: #61b7cf;
+        margin-top: 20px;
+    }
+    .button:hover{
+        background: #61b7cf;
+        color: #025167;
+    }
+    .border{
+        border: 3px solid ;
+        border-color: #025167;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        margin: auto;
+        border-style: dashed ;
+    }
+    
+</style>
+<body>
+    <div class="border block">
+        <h5 class="main">В чём же отличие?</h5>
+        <h2 class="with-padding block">MARGIN vs PADDING</h2>
+        <p>
+            Создавать промежутки между элементами
+            можно и тем, и другим способом, но если
+            padding - это отступ от содержимого до края
+            блока, то margin - это расстояние от одного блока
+            до другого, межблоковое пространство.
+            Поля и отступы CSS отличаются между собой,
+            хоть иногда без просмотра кода и нельзя определить,
+             с помощью какого свойства задано расстояние.
+            Это случается в тех случаях, когда отсутсвует рамка или фон блока с содержимым.
+        </p> 
+        <div class="button">Подробнее</div>
+    </div>
+
+</body>
+</html>
